@@ -25,6 +25,11 @@
             int x1 = 5;
             Console.WriteLine(x1 > 3 && x1 < 10);
 
+            //Example5(String interpolation)
+            string firstname = "Kalyan" ;
+            string lastname = "Abhi";
+            string name = $" Full name is : {firstname }  {lastname}";
+
         }
     }
         
